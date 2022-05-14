@@ -1,0 +1,45 @@
+body {
+  background-color: #556B2F;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+  color: goldenrod;
+  font-size: 7rem;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  margin-bottom: 20px;
+  position: center;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+  color: #556B2F;
+  background: goldenrod;
+}
+
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: black;
+}
+
+button[disabled] .btn-text {
+  color: lightgrey;
+}
+
+.btn-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=index.css.map */
